@@ -4,30 +4,29 @@
 ### 1. Kennis
 * Huidige kennis
 
-Persoonlijk vind ik dat ik sinds het moment dat ik binnen Cegeka begon heel wat kennis heb opgedaan. Zowel op het vlak van talen en technologien als op het vlak van de hele werkwijze achter softwareontwikkeling. Logisch natuurlijk aangezien ik voor dat moment hier helemaal niets van wist.
-Als ik mijn kennis binnen het team bekijk denk ik dat ik op sommige vlakken genoeg weet om de conversaties te volgen, beslissingen te begrijpen of stories te implementeren. Ik doe ook altijd mijn best om vragen te stellen wanneer ik iets niet begrijp omdat ik de zaken ook altijd wel wil begrijpen! 
-Ik besef heel goed dat er heel wat zaken zijn die ik nog niet weet en ik doe ook actief mijn best om dit gat dicht te werken. Dit is wel een vlak waar ik soms wat meer begeleiding zou kunnen gebruiken van iemand meer ervaren die samen met mij prioriteiten kan stellen aan welke zaken ik eerst moet aanpakken. Ik leer graag nieuwe dingen maar de prioriteiten juist stellen is niet altijd even gemakkelijk voor mij.
-
+    Persoonlijk vind ik dat ik sinds het moment dat ik binnen Cegeka begon heel wat kennis heb opgedaan. Zowel op het vlak van talen en technologien als op het vlak van de hele werkwijze achter softwareontwikkeling. Logisch natuurlijk aangezien ik voor dat moment hier helemaal niets van wist.
+    Als ik mijn kennis binnen het team bekijk denk ik dat ik op sommige vlakken genoeg weet om de conversaties te volgen, beslissingen te begrijpen of stories te implementeren. Ik doe ook altijd mijn best om vragen te stellen wanneer ik iets niet begrijp omdat ik de zaken ook altijd wel wil begrijpen! 
+    Ik besef heel goed dat er heel wat zaken zijn die ik nog niet weet en ik doe ook actief mijn best om dit gat dicht te werken. Dit is wel een vlak waar ik soms wat meer begeleiding zou kunnen gebruiken van iemand meer ervaren die samen met mij prioriteiten kan stellen aan welke zaken ik eerst moet aanpakken. Ik leer graag nieuwe dingen maar de prioriteiten juist stellen is niet altijd even gemakkelijk voor mij.
 
 * Kennis op doen
-```
-Ik ben heel actief bezig met kennis op doen in mijn vrije tijd. Ik zou graag goed worden in wat ik doe en ik weet dat ik hiervoor veel in te halen heb. Dit motiveert mij ook wel om nieuwe dingen bij te leren.
-Enkele voorbeelden:
-Typen: 
-Sinds mijn vorig gesprek met Darek (juli 2017) heb ik besloten blind te leren typen. Dit omdat ik vind dat dit een skill is die ik zeker moet bezitten als ik succesvol software developer wil zijn. Ons keyboard is hoe we met de computer communiceren dus ik vond dat ik hier beter gebruik van moest leren maken. Ik heb hiervoor bijna elke avond oefeningen gedaan op typing.com. 
-Java:
-Meerdere weken geleerd aan mijn OCA certificaat. Hoewel ik het niet eens ben met de manier van ondervraging voor het examen heb ik toch heel wat dingen bijgeleerd tijdens het leren voor dit certificaat.
-Docker:
-Sinds mijn deelname aan de devops-sandbox in mei ben ik zeer geinteresseerd in docker. Ik heb het geluk gehad om hiermee te kunnen experimenteren tijdens de hip-sprint van Q3. Ook savonds prul ik hier regelmatig mee.
-Maven:
-Na mijn recente pair-sessies met Stijn heb ik enorm veel bij geleerd over Maven. Ik kende dit hier voor nog niet en heb mijn best gedaan om de kennis die ik heb opgedaan tijdens die dagen zo goed mogelijk te documenteren.
-Angular:
-Ik heb een Udemy cursus over angular aangeschaft (Angular4, the complete guide door Maximilian Swarzmuller). Ik probeer deze cursus te volgen op de trein heen en weer Brussel en ook hier een naslagwerk voor mezelf te maken. Als aanvulling heb ik een persoonlijk projectje uitgewerkt waar ik vooral tijdens de softwaresandboxes op donderdag aan werk.
-Front-end:
-Ik heb mij ingeschreven voor een google scholarschip op Udacity voor web development en heb dit ook gekregen. Vanaf 6/11/2017 kan ik hierdoor hun cursus volgen over Html, Css en Javascript. Dit omdat ik wel heel basis met deze talen kan werken maar hier graag meer kennis over zou krijgen.
-Spring:
-Ik ben ingeschreven voor een spring cursus eind november.
-```
+
+    Ik ben heel actief bezig met kennis op doen in mijn vrije tijd. Ik zou graag goed worden in wat ik doe en ik weet dat ik hiervoor veel in te halen heb. Dit motiveert mij ook wel om nieuwe dingen bij te leren.
+    Enkele voorbeelden:
+    Typen: 
+    Sinds mijn vorig gesprek met Darek (juli 2017) heb ik besloten blind te leren typen. Dit omdat ik vind dat dit een skill is die ik zeker moet bezitten als ik succesvol software developer wil zijn. Ons keyboard is hoe we met de computer communiceren dus ik vond dat ik hier beter gebruik van moest leren maken. Ik heb hiervoor bijna elke avond oefeningen gedaan op typing.com. 
+    Java:
+    Meerdere weken geleerd aan mijn OCA certificaat. Hoewel ik het niet eens ben met de manier van ondervraging voor het examen heb ik toch heel wat dingen bijgeleerd tijdens het leren voor dit certificaat.
+    Docker:
+    Sinds mijn deelname aan de devops-sandbox in mei ben ik zeer geinteresseerd in docker. Ik heb het geluk gehad om hiermee te kunnen experimenteren tijdens de hip-sprint van Q3. Ook savonds prul ik hier regelmatig mee.
+    Maven:
+    Na mijn recente pair-sessies met Stijn heb ik enorm veel bij geleerd over Maven. Ik kende dit hier voor nog niet en heb mijn best gedaan om de kennis die ik heb opgedaan tijdens die dagen zo goed mogelijk te documenteren.
+    Angular:
+    Ik heb een Udemy cursus over angular aangeschaft (Angular4, the complete guide door Maximilian Swarzmuller). Ik probeer deze cursus te volgen op de trein heen en weer Brussel en ook hier een naslagwerk voor mezelf te maken. Als aanvulling heb ik een persoonlijk projectje uitgewerkt waar ik vooral tijdens de softwaresandboxes op donderdag aan werk.
+    Front-end:
+    Ik heb mij ingeschreven voor een google scholarschip op Udacity voor web development en heb dit ook gekregen. Vanaf 6/11/2017 kan ik hierdoor hun cursus volgen over Html, Css en Javascript. Dit omdat ik wel heel basis met deze talen kan werken maar hier graag meer kennis over zou krijgen.
+    Spring:
+    Ik ben ingeschreven voor een spring cursus eind november.
+
 * Kennis delen
 ```
 Ik weet niet hoe dit door het team wordt gezien maar ik probeer altijd mijn best te doen om de kennis die ik opdoe ook te delen met anderen. Zo heb ik onder andere al onze bevindingen van vorige hipspring uitvoerig gedocumenteerd en dit ook met het team gedeeld. Verder ben ik ook bezig mijn eigen samenvattingen te maken over de zaken die ik leer en ik plan deze ook te delen met het team. 
