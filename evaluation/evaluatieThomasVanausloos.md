@@ -2,6 +2,7 @@
 
 ## Persoonlijke inbreng
 ### 1. Kennis
+
 * **Huidige kennis**
 
     Persoonlijk vind ik dat ik sinds het moment dat ik binnen Cegeka begon heel wat kennis heb opgedaan. Zowel op het vlak van talen en technologien als op het vlak van de hele werkwijze achter softwareontwikkeling. Logisch natuurlijk aangezien ik voor dat moment hier helemaal niets van wist.
@@ -44,6 +45,7 @@
 
 
 ### 2. Werkwijze
+
 * **Agile way of working**
 
     Ik probeer hier zo goed mogelijk aan mee te werken. Ik ben zelf ook van mening dat we hier heel wat kunnen verbeteren als team. Ik vind het hier wel soms moeilijk om te weten wat ik als impact kan hebben en hoe ik dingen mee kan helpen verbeteren. Door mijn beperkte ervaring weet ik enkel hoe dit idealiter er zou uit zien. Dit is ook mijn eerste project ervaring dus ik weet niet altijd of het normaal is dat sommige dingen wat afwijken van het ideale scenario of dat we hier aan moeten werken.
@@ -73,6 +75,7 @@
     Verder ben ik nog op zoek naar een vlotte manier om heel mijn pc te switchen tussen azerty en qwerty zodat dit vlot kan gebeuren tijdens het pairen en dat mijn pair niet gedwongen wordt qwerty te typen.
 
 ### 3. Team
+
 * **Team meetings**
 
     Tijdens team meetings probeer ik actief mee naar oplossingen te zoeken, deel te nemen in discussies en vragen te stellen indien ik iets niet begrijp. Ik ben op dat vlak redelijk mondig en schrik er ook niet van terug om mij te laten horen tijdens dit soort meetings. Ik vind dat iedereen dit zou moeten kunnen binnen de veilige omgeving van ons team.
@@ -88,27 +91,123 @@
 
 ### 4. Motivatie
 
-    Ik vind van mijzelf dat ik heel gemotiveerd ben en daardoor ook bereid ben om heel veel dingen na de uren bij te leren. Ik sta ook altijd open om nieuwe dingen bij te leren. Dit is vanuit mijn natuur zo maar nu nog extra omdat ik besef dat ik nog enorm heb om bij te leren.
+Ik vind van mijzelf dat ik heel gemotiveerd ben en daardoor ook bereid ben om heel veel dingen na de uren bij te leren. Ik sta ook altijd open om nieuwe dingen bij te leren. Dit is vanuit mijn natuur zo maar nu nog extra omdat ik besef dat ik nog enorm heb om bij te leren.
 
 ### 5. Verbeterpunten
-    * Probeer beter op de hoogte te zijn van interne cursussen en probeer deze meer te volgen ipv alles savonds thuis te willen doen.
 
-    * Leren confrontaties aan te gaan met mensen. Dit niet doen leidt tot opgekropte evoelens  bij mijzelf wat uiteindelijk leidt tot frustraties.
+  * Probeer beter op de hoogte te zijn van interne cursussen en probeer deze meer te volgen ipv alles savonds thuis te willen doen.
 
-    * Blijven letten op feedback geven en vragen
+  * Leren confrontaties aan te gaan met mensen. Dit niet doen leidt tot opgekropte evoelens  bij mijzelf wat uiteindelijk leidt tot frustraties.
+
+  * Blijven letten op feedback geven en vragen
 
     Verder had ik op dit vlak vooral graag de mening van anderen gehoord. Hoe mijn teamleden vinden dat ik mij best kan verbeteren. Zowel op persoonlijk vlak, als developper als op teamvlak.
+
 ### 6. Evaluatie binnen de vdab
 
-    Toen ik begon binnen de vdab was alles zo nieuw voor mij dat het even heeft geduurd voordat ik mijn plek in dit alles wat gevonden had. Dit heeft er volgens mij voor gezorgd dat mijn start in het team Leuven niet zo super was als ik zelf wou. Ik merkte dat ik hier minder initiatief durfde nemen dan normaal. Ik denk dat ik pas echt ben beginnen ontplooien toen ik terug naar Brussel ging. Hier heb ik ook meer het gevoel van ondersteuning wanneer ik dit nodig heb waar ik in Leuven minder snel voor hulp durfde vragen op momenten dat ik het nodig had. In het duidelijke team durf ik ook veel meer initiatief te nemen en te zeggen wanneer ik dingen niet begrijp. Hoewel ik hier altijd over team Leuven en team Brussel spreek hoeft dit voor mij zeker niet de oorzaak te zijn. Ik denk eerder dat ik wat tijd nodig heb gehad om gewoon te worden aan dit alles.
+Toen ik begon binnen de vdab was alles zo nieuw voor mij dat het even heeft geduurd voordat ik mijn plek in dit alles wat gevonden had. Dit heeft er volgens mij voor gezorgd dat mijn start in het team Leuven niet zo super was als ik zelf wou. Ik merkte dat ik hier minder initiatief durfde nemen dan normaal. Ik denk dat ik pas echt ben beginnen ontplooien toen ik terug naar Brussel ging. Hier heb ik ook meer het gevoel van ondersteuning wanneer ik dit nodig heb waar ik in Leuven minder snel voor hulp durfde vragen op momenten dat ik het nodig had. In het duidelijke team durf ik ook veel meer initiatief te nemen en te zeggen wanneer ik dingen niet begrijp. Hoewel ik hier altijd over team Leuven en team Brussel spreek hoeft dit voor mij zeker niet de oorzaak te zijn. Ik denk eerder dat ik wat tijd nodig heb gehad om gewoon te worden aan dit alles.
 
 ### 7. Toekomst
 
-    Ik ben best wel ambiteus. Niet persee in de zin van een hoge functie na te streven maar eerder in de zin van goed zijn in wat ik doe. Ik haal veel voldoening uit dingen goed te doen dus ik probeer hier continu in te verbeteren. Dit verhoogt ook mijn motivatie om bij te leren en dingen te begrijpen.
+Ik ben best wel ambiteus. Niet persee in de zin van een hoge functie na te streven maar eerder in de zin van goed zijn in wat ik doe. Ik haal veel voldoening uit dingen goed te doen dus ik probeer hier continu in te verbeteren. Dit verhoogt ook mijn motivatie om bij te leren en dingen te begrijpen.
 
 
 ## Result areas
+
+**1) Het gepast gebruiken van de bestaande/uitgestippelde architectuur teneinde een kader voor de ontwikkeling te bieden.**
+
+Score: ****
+
+**2) Het verder uitwerken van de deelprocessen op basis van de functionele analyse.**
+
+Score: ****
+
+**3) Technisch ontwerpen van een deelproces rekening houdend met het globale technische ontwerp in samenwerking met de gegevensbeheerder en (pair) technisch designer teneinde te voldoen aan de vereisten in functie van kostprijsberekening, performantie en beheersbaarheid/onderhoudbaarheid**
+
+Score: ****
+
+**4) Samen met een (pair) technisch designer, : het beschrijven, plannen en organiseren van technische testen teneinde een concreet testplan op te stellen.**
+
+Score: ****
+
+**5) In samenwerking met een (pair) technisch designer de gebruiker begeleiden bij de integratietesten teneinde een vlotte implementatie te garanderen.**
+
+Score: ****
+
+**6) Verzorgen van technische documentatie teneinde het ontwikkelde model verder te ondersteunen.**
+
+Score: ****
+
+**7) Bijwerken en onderhouden van de vakkennis en de technische vaardigheden teneinde de eigen vakkennis te maximaliseren en deze optimaal binnen de organisatie toe te passen.**
+
+Score: ****
+
+
+
 ## Competenties
+**1) Analyseren - Niveau 2**
+
+*Door zich een kritisch en rationeel oordeel te vormen over de beschikbare informatie en door het essentiële van het bijkomstige te onderscheiden, inzicht krijgen in oorzaak en gevolg.
+LEGT VERBANDEN EN ZIET OORZAKEN*
+
+Score: ****
+
+**2) Integreren - Niveau 1**
+
+*Via het leggen van relevante verbanden diverse gegevens op een synthetische manier integreren in een coherent geheel, alternatieven naar voor brengen en deze synthese en alternatieven verder uitwerken in een waardevolle en sluitende conclusie.
+TREKT LOGISCHE CONCLUSIES*
+
+Score: ****
+
+**3) Werk structureren - Niveau 2**
+
+*Structuur aanbrengen in taken door deze op een consequente manier af te werken binnen de gegeven tijd.
+PRIORETISEERT TAKEN*
+
+Score: ****
+
+**4)Oplossingsgericht werken - Niveau 2**
+
+*Onverwachte situaties opvangen en beheersen.
+LOST CONCRETE PROBLEMEN AUTONOOM OP*
+
+Score: ****
+
+**5) Samenwerken - Niveau 1**
+
+*Groepsgeest creëren en bevorderen.
+WERKT CONSTRUCTIEF MEE IN HET TEAM*
+
+Score: ****
+
+**6) Flexibiliteit tonen - Niveau 1**
+
+*Een flexibele houding aannemen ten aanzien van en inspelen op veranderende omstandigheden en een diversiteit in situaties.
+PAST ZICH AAN INDIEN DE SITUATIE DAT VEREIST*
+
+Score: ****
+
+**7) Nauwkeurig werken - Niveau 2**
+
+*Zaken tot in de details uitwerken en correct uitvoeren, rigoureus en nauwkeurig zijn.
+LEVERT CORRECT EN KWALITATIEF WERK*
+
+Score: ****
+
+**8) Authentiek zijn**
+
+*Bouwen van vertrouwen door consistent te handelen in principes, waarden en gedrag. Een open geest en houding aannemen ten aanzien van andere ideeën, meningen, opinies en mensen.*
+
+Score: ****
+
+**9) Engagement tonen**
+
+*Verantwoordelijkheid opnemen voor het behalen van objectieven. Verbintenissen nakomen.*
+
+Score: ****
+
+
+
 ## Objectives
 #### 1) NPS > 35 %
 
