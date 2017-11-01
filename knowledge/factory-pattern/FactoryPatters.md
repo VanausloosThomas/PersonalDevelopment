@@ -1,6 +1,6 @@
-#**Simple Factory**
+# **Simple Factory**
 
-##**Example**
+## **Example**
 
 Imagine a `class Canvas`. The Canvas uses a method `createShape()` to create a new shape and then draws this shape.
 ```java
@@ -90,7 +90,7 @@ For this (polymorphism) to work we need `Cirle` `Rectangle` and `Square` to impl
  * Good way to use abstractions instead of concrete classes (you can work with shapes instead of circles, retangles and squares...).
  * BUT: This is not a real pattern!
  
-#**Factory Method**
+# **Factory Method**
 
 Imagine we now want two different kinds of a canvas, a small one and a big one. 
 Let's say that the `LargeCanvas` uses a `BigCircle` where the `SmallCanvas` uses a `SmallCircle`, both implementations of a shape ofcourse.
@@ -178,11 +178,11 @@ This gives us the following diagram:
 
 ![alt text](https://sourcemaking.com/files/v2/content/patterns/Factory_Method.svg "Factory Method")
 
-###**To Sum up:**
+### **To Sum up:**
 * Factory method delegates the concrete creations to the subclasses. It relies on inheritance!
 * Uses abstraction as much as possible! Only the factory method will choose of the concrete classes!
 
-#**Abstract Factory**
+# **Abstract Factory**
 
 This is the second Factory design pattern (next to our Factory Method pattern!).
 We will start with a small definition:
@@ -325,6 +325,6 @@ And the client class `Canvas`:
         
  }
  ```
-###**To Sum up:**
+### **To Sum up:**
 * Factory method delegates the concrete creations to different factories. It relies on composition!
 * Uses abstraction as much as possible! Only the concrete factory will choose of the concrete classes!
