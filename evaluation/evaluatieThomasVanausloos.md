@@ -13,25 +13,25 @@
     Ik ben heel actief bezig met kennis op doen in mijn vrije tijd. Ik zou graag goed worden in wat ik doe en ik weet dat ik hiervoor veel in te halen heb. Dit motiveert mij ook wel om nieuwe dingen bij te leren.
     Enkele voorbeelden:
 
-    Typen: 
+    **Typen:**
     Sinds mijn vorig gesprek met Darek (juli 2017) heb ik besloten blind te leren typen. Dit omdat ik vind dat dit een skill is die ik zeker moet bezitten als ik succesvol software developer wil zijn. Ons keyboard is hoe we met de computer communiceren dus ik vond dat ik hier beter gebruik van moest leren maken. Ik heb hiervoor bijna elke avond oefeningen gedaan op typing.com. 
 
-    Java:
+    **Java:**
     Meerdere weken geleerd aan mijn OCA certificaat. Hoewel ik het niet eens ben met de manier van ondervraging voor het examen heb ik toch heel wat dingen bijgeleerd tijdens het leren voor dit certificaat.
 
-    Docker:
+    **Docker:**
     Sinds mijn deelname aan de devops-sandbox in mei ben ik zeer geinteresseerd in docker. Ik heb het geluk gehad om hiermee te kunnen experimenteren tijdens de hip-sprint van Q3. Ook savonds prul ik hier regelmatig mee.
 
-    Maven:
+    **Maven:**
     Na mijn recente pair-sessies met Stijn heb ik enorm veel bij geleerd over Maven. Ik kende dit hier voor nog niet en heb mijn best gedaan om de kennis die ik heb opgedaan tijdens die dagen zo goed mogelijk te documenteren.
 
-    Angular:
+    **Angular:**
     Ik heb een Udemy cursus over angular aangeschaft (Angular4, the complete guide door Maximilian Swarzmuller). Ik probeer deze cursus te volgen op de trein heen en weer Brussel en ook hier een naslagwerk voor mezelf te maken. Als aanvulling heb ik een persoonlijk projectje uitgewerkt waar ik vooral tijdens de softwaresandboxes op donderdag aan werk.
 
-    Front-end:
+    **Front-end:**
     Ik heb mij ingeschreven voor een google scholarschip op Udacity voor web development en heb dit ook gekregen. Vanaf 6/11/2017 kan ik hierdoor hun cursus volgen over Html, Css en Javascript. Dit omdat ik wel heel basis met deze talen kan werken maar hier graag meer kennis over zou krijgen.
 
-    Spring:
+    **Spring:**
     Ik ben ingeschreven voor een spring cursus eind november.
 
 * Kennis delen
