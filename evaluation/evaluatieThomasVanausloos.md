@@ -116,31 +116,45 @@ Ik ben best wel ambiteus. Niet persee in de zin van een hoge functie na te strev
 
 **1) Het gepast gebruiken van de bestaande/uitgestippelde architectuur teneinde een kader voor de ontwikkeling te bieden.**
 
-Score: ****
+Ik denk dat ik redelijk goed mee ben in het bestaande domein voor PVC (met uitzondering momenteel  van de laatste wijzigingen aangezien ik hier geen deel aan genomen heb). Ik probeer ook altijd deel te nemen aan discussies die over het modelleren van het domein gaan en hier vragen te stellen wanneer dingen niet duidelijk zijn. 
+Score: **3**
 
 **2) Het verder uitwerken van de deelprocessen op basis van de functionele analyse.**
 
-Score: ****
+Ik denk dat dit redelijk vlot lukt. Ik probeer nieuwe deelprocessen uit te tekenen op mijn schema van onze domein lagen. Soms mis ik hier nog zaken omdat ik wat achterligende werkingen van de applicatie niet altijd ken maar hier kan mijn pair mij altijd mee helpen.
+
+Score: **?**
 
 **3) Technisch ontwerpen van een deelproces rekening houdend met het globale technische ontwerp in samenwerking met de gegevensbeheerder en (pair) technisch designer teneinde te voldoen aan de vereisten in functie van kostprijsberekening, performantie en beheersbaarheid/onderhoudbaarheid**
 
-Score: ****
+Ik denk dat ik momenteel vooral nadenk of rekening houdt met hoe het deelproces zich binnen het grotere geheel bevat en of dit gemakkelijk uitbreidbaar is of niet. Als het over performantie gaat moet ik momenteel nog bij mijn seniors ten raadde gaan. 
+
+Score: **?**
 
 **4) Samen met een (pair) technisch designer, : het beschrijven, plannen en organiseren van technische testen teneinde een concreet testplan op te stellen.**
 
-Score: ****
+Ik probeer altijd bij een implementatie op te sommen wat er precies allemaal moet afgetest worden. Dit liefst in een TDD manier maar zoals ik reeds vermeld heb kan het soms wel eens gebeuren dat ik te enthousiast aan de implementatie begin zonder mijn test op voorhand te schrijven. Gelukkig heb ik meestal oplettende pairs die mij hierop wijzen.
+
+Score: **?**
 
 **5) In samenwerking met een (pair) technisch designer de gebruiker begeleiden bij de integratietesten teneinde een vlotte implementatie te garanderen.**
 
-Score: ****
+Ik heb nog geen enkele story geimplementeerd waarbij ik een proxy heb moeten begeleiden in het testen.
+
+Score: **?**
 
 **6) Verzorgen van technische documentatie teneinde het ontwikkelde model verder te ondersteunen.**
 
-Score: ****
+We hebben binnen het team de afspraak om ons model up to date te houden. Ook ik werk hier actief aan mee wanneer ik aanpassingen maak in de code die impact op ons model hebben. B.V. de story over prestaties toevoegen. Hier voor heb ik het domeinmodel op de confluence pagina aanepast alsook in samenspaak met Michael aanpassinen gemaakt aan de acceptatiecriteria van de story. 
+Verder heb ik bv ook een uitgebreide documentatie gemaakt over mijn bevindingen gedurende de vorige hip-sprint.
+
+Score: **3**
 
 **7) Bijwerken en onderhouden van de vakkennis en de technische vaardigheden teneinde de eigen vakkennis te maximaliseren en deze optimaal binnen de organisatie toe te passen.**
 
-Score: ****
+Zoals in mijn persoonlijke inbreng beschreven, besteed ik zeer veel tijd thuis aan het bij leren van nieuwe dingen zodat deze kennis mij verder kan helpen in mijn job.
+
+Score: **3**
 
 
 
@@ -150,61 +164,79 @@ Score: ****
 *Door zich een kritisch en rationeel oordeel te vormen over de beschikbare informatie en door het essentiële van het bijkomstige te onderscheiden, inzicht krijgen in oorzaak en gevolg.
 LEGT VERBANDEN EN ZIET OORZAKEN*
 
-Score: ****
+Ik denk dat ik redelijk goed verbanden leg binnen mijn kennis en met zaken die ik net geleerd heb. Het is echter niet altijd even gemakkelijk om overal voldoende kennis over te hebben gezien de vele technologien die (gedurende de vele jaren) op de vdab gebruikt worden.
+
+Score: **?**
 
 **2) Integreren - Niveau 1**
 
 *Via het leggen van relevante verbanden diverse gegevens op een synthetische manier integreren in een coherent geheel, alternatieven naar voor brengen en deze synthese en alternatieven verder uitwerken in een waardevolle en sluitende conclusie.
 TREKT LOGISCHE CONCLUSIES*
 
-Score: ****
+Score: **?**
 
 **3) Werk structureren - Niveau 2**
 
 *Structuur aanbrengen in taken door deze op een consequente manier af te werken binnen de gegeven tijd.
 PRIORETISEERT TAKEN*
 
-Score: ****
+ Structuur aanbrengen in mijn taken doe ik door todo-lijstjes te maken aan het begin van elke story en deze ook goed op te volgen. Dit helpt mij enorm. Het afwerken van tijden binnen de gegeven tijd bekijk ik eerder vanuit het standpunt van stories af te werken binnen de sprint. Als ik dan terug kijk naar de laatste stories waaraan ik mee heb gewerkt, lukt dit niet altijd. Niet omdat er niet aan wordt voort gewerkt maar eerder omdat er vanuit de analyse in het midden van de story plots grote veranderingen aankwamen. 
+
+Score: **?**
 
 **4)Oplossingsgericht werken - Niveau 2**
 
 *Onverwachte situaties opvangen en beheersen.
 LOST CONCRETE PROBLEMEN AUTONOOM OP*
 
-Score: ****
+In het algemeen ben ik redelijk goed in het opvangen van onverwacht werk. Mijn vorige job bestond uit bijna niets anders. Als ik dit in het licht van de vdab bekijk denk ik dat ik nog wat moet groeien binnen hun landschap om zo maar elk probleem autonoom uit te werken. Ik denk dat ik momenteel nog niet lang genoeg op het project zit om voldoende kennis hiervoor te hebben maar ik ben er zeker van dat wanneer ik deze kennis wel heb, dit allemaal goed zal lopen.
+
+Score: **?**
 
 **5) Samenwerken - Niveau 1**
 
 *Groepsgeest creëren en bevorderen.
 WERKT CONSTRUCTIEF MEE IN HET TEAM*
 
-Score: ****
+Ik vind van mijzelf dat ik hier heel actief mee bezig ben. Ik neem actief aan alle discussies en gesprekken en probeer ook aan alle activiteiten buiten de uren deel te nemen. Verder denk ik ook dat er niemand op het team is waar ik niet mee overweg kan. Uit mijn insight profiel is ook gebleken dat ik het goed van de groep zeer hoog inschat en dus eerder voor het team zal kiezen ipv voor mijzelf.
+
+Score: **4**
 
 **6) Flexibiliteit tonen - Niveau 1**
 
 *Een flexibele houding aannemen ten aanzien van en inspelen op veranderende omstandigheden en een diversiteit in situaties.
 PAST ZICH AAN INDIEN DE SITUATIE DAT VEREIST*
 
-Score: ****
+Ik denk dat ik momenteel een flexibele attitude heb. Ik sta voor alles open en heb ondertussen al mee vac werk als devops gedaan. Soms kan het lijken alsof ik liever geen nieuwe dingen doe maar dit is eerder mijn eigen onzekerheid die mij soms parten speelt. Ik wil gerust alles doen wat er mij gevraagd wordt maar ik wil ook weten dat ik de kennis/capaciteit heb om die dingen tot een goed einde te brengen. Zo heb ik mij heel lang geen kandidaat voor devops gesteld omdat het doel van de dedicated devopser was om Stijn wat te ontlasten. Ik vond dat als ik dan zijn pair zou zijn dat ik hem eerder zou vertragen door mijn beperkte kennis over devops ipv hem te helpen. Nudat Stijn heeft laten weten dat hij wat meer tijd heeft heb ik mij dan ook kandidaat gesteld en ondertussen hier al zeer veel over bijgeleerd.
+
+Score: **3**
 
 **7) Nauwkeurig werken - Niveau 2**
 
 *Zaken tot in de details uitwerken en correct uitvoeren, rigoureus en nauwkeurig zijn.
 LEVERT CORRECT EN KWALITATIEF WERK*
 
-Score: ****
+Ik probeer aan het begin van een story een takenlijstje te maken en dit tijdens de story ook up to date te houden/aan te vullen zodat ik zeker niets vergeet. Ik denk dat ik bij de meeste stories heel nauwkeurig ben. Zelf wat perfectionistisch zijn help hier natuurlijk bij. Ik denk dat ik soms wel moet opletten om niet ge-side-tracked to worden door een grote refactoring die in het midden van een story moet gebeuren. 
+
+Score: **3**
 
 **8) Authentiek zijn**
 
 *Bouwen van vertrouwen door consistent te handelen in principes, waarden en gedrag. Een open geest en houding aannemen ten aanzien van andere ideeën, meningen, opinies en mensen.*
 
-Score: ****
+Over mijn consistent handelen kan ik niet veel zeggen. Ik vermoed dat dit andere mensen zullen moeten zijn die eventuele inconsistentie zullen moeten opmerken indien die aanwezig is. 
+Wel geloof ik dat ik iemand ben die open staat voor alles, alsook andere mensen hun ideeen en meningen. Ik zal altijd naar andere mensen hun mening luisteren en deze ook overwegen. 
+
+Score: **4**
 
 **9) Engagement tonen**
 
 *Verantwoordelijkheid opnemen voor het behalen van objectieven. Verbintenissen nakomen.*
 
-Score: ****
+Ik vind van mijzelf dat ik iemand ben die altijd doet wat hij beloofd. Als ik zeg dat ik iets zal klaar hebben zal ik dit ook doen (daarom dat ik bijvoorbeeld heel deze voorbereiding schrijf op mijn vrije dag).
+Ik toon ook zeker engagement. Toen Seppe mij vroeg om mee een KSA te organiseren heb ik hier ook veel tijd en werk in gestoken om dit tot een goed einde te brengen. Ik kan niet tegen half uitgevoerd werk. Hetzelfde geldt voor de sollicitaties voor de Cegekaschool2. Ik heb mij altijd goed voorbereid op de gesprekken zodat ik deze kwalitatief kon voeren. Ik had zelfs samen met de andere twee recruters een hele lijst vragen en themas voorbereid als soort van leidraad. 
+
+Score: **4**
 
 
 
