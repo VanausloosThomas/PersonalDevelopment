@@ -124,7 +124,7 @@ Score: **3**
 
 Ik denk dat dit redelijk vlot lukt. Ik probeer nieuwe deelprocessen uit te tekenen op mijn schema van onze domein lagen. Soms mis ik hier nog zaken omdat ik wat achterligende werkingen van de applicatie niet altijd ken maar hier kan mijn pair mij altijd mee helpen.
 
-Score: **...**
+Score: **3**
 
 **3) Technisch ontwerpen van een deelproces rekening houdend met het globale technische ontwerp in samenwerking met de gegevensbeheerder en (pair) technisch designer teneinde te voldoen aan de vereisten in functie van kostprijsberekening, performantie en beheersbaarheid/onderhoudbaarheid**
 
