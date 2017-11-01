@@ -117,31 +117,32 @@ Ik ben best wel ambiteus. Niet persee in de zin van een hoge functie na te strev
 **1) Het gepast gebruiken van de bestaande/uitgestippelde architectuur teneinde een kader voor de ontwikkeling te bieden.**
 
 Ik denk dat ik redelijk goed mee ben in het bestaande domein voor PVC (met uitzondering momenteel  van de laatste wijzigingen aangezien ik hier geen deel aan genomen heb). Ik probeer ook altijd deel te nemen aan discussies die over het modelleren van het domein gaan en hier vragen te stellen wanneer dingen niet duidelijk zijn. 
+
 Score: **3**
 
 **2) Het verder uitwerken van de deelprocessen op basis van de functionele analyse.**
 
 Ik denk dat dit redelijk vlot lukt. Ik probeer nieuwe deelprocessen uit te tekenen op mijn schema van onze domein lagen. Soms mis ik hier nog zaken omdat ik wat achterligende werkingen van de applicatie niet altijd ken maar hier kan mijn pair mij altijd mee helpen.
 
-Score: **?**
+Score: **...**
 
 **3) Technisch ontwerpen van een deelproces rekening houdend met het globale technische ontwerp in samenwerking met de gegevensbeheerder en (pair) technisch designer teneinde te voldoen aan de vereisten in functie van kostprijsberekening, performantie en beheersbaarheid/onderhoudbaarheid**
 
 Ik denk dat ik momenteel vooral nadenk of rekening houdt met hoe het deelproces zich binnen het grotere geheel bevat en of dit gemakkelijk uitbreidbaar is of niet. Als het over performantie gaat moet ik momenteel nog bij mijn seniors ten raadde gaan. 
 
-Score: **?**
+Score: **...**
 
 **4) Samen met een (pair) technisch designer, : het beschrijven, plannen en organiseren van technische testen teneinde een concreet testplan op te stellen.**
 
 Ik probeer altijd bij een implementatie op te sommen wat er precies allemaal moet afgetest worden. Dit liefst in een TDD manier maar zoals ik reeds vermeld heb kan het soms wel eens gebeuren dat ik te enthousiast aan de implementatie begin zonder mijn test op voorhand te schrijven. Gelukkig heb ik meestal oplettende pairs die mij hierop wijzen.
 
-Score: **?**
+Score: **...**
 
 **5) In samenwerking met een (pair) technisch designer de gebruiker begeleiden bij de integratietesten teneinde een vlotte implementatie te garanderen.**
 
 Ik heb nog geen enkele story geimplementeerd waarbij ik een proxy heb moeten begeleiden in het testen.
 
-Score: **?**
+Score: **...**
 
 **6) Verzorgen van technische documentatie teneinde het ontwikkelde model verder te ondersteunen.**
 
@@ -166,14 +167,14 @@ LEGT VERBANDEN EN ZIET OORZAKEN*
 
 Ik denk dat ik redelijk goed verbanden leg binnen mijn kennis en met zaken die ik net geleerd heb. Het is echter niet altijd even gemakkelijk om overal voldoende kennis over te hebben gezien de vele technologien die (gedurende de vele jaren) op de vdab gebruikt worden.
 
-Score: **?**
+Score: **...**
 
 **2) Integreren - Niveau 1**
 
 *Via het leggen van relevante verbanden diverse gegevens op een synthetische manier integreren in een coherent geheel, alternatieven naar voor brengen en deze synthese en alternatieven verder uitwerken in een waardevolle en sluitende conclusie.
 TREKT LOGISCHE CONCLUSIES*
 
-Score: **?**
+Score: **...**
 
 **3) Werk structureren - Niveau 2**
 
@@ -182,7 +183,7 @@ PRIORETISEERT TAKEN*
 
  Structuur aanbrengen in mijn taken doe ik door todo-lijstjes te maken aan het begin van elke story en deze ook goed op te volgen. Dit helpt mij enorm. Het afwerken van tijden binnen de gegeven tijd bekijk ik eerder vanuit het standpunt van stories af te werken binnen de sprint. Als ik dan terug kijk naar de laatste stories waaraan ik mee heb gewerkt, lukt dit niet altijd. Niet omdat er niet aan wordt voort gewerkt maar eerder omdat er vanuit de analyse in het midden van de story plots grote veranderingen aankwamen. 
 
-Score: **?**
+Score: **...**
 
 **4)Oplossingsgericht werken - Niveau 2**
 
@@ -191,7 +192,7 @@ LOST CONCRETE PROBLEMEN AUTONOOM OP*
 
 In het algemeen ben ik redelijk goed in het opvangen van onverwacht werk. Mijn vorige job bestond uit bijna niets anders. Als ik dit in het licht van de vdab bekijk denk ik dat ik nog wat moet groeien binnen hun landschap om zo maar elk probleem autonoom uit te werken. Ik denk dat ik momenteel nog niet lang genoeg op het project zit om voldoende kennis hiervoor te hebben maar ik ben er zeker van dat wanneer ik deze kennis wel heb, dit allemaal goed zal lopen.
 
-Score: **?**
+Score: **...**
 
 **5) Samenwerken - Niveau 1**
 
