@@ -3,11 +3,11 @@
 ## Persoonlijke inbreng
 ### 1. Kennis
 * Huidige kennis
-```
+
 Persoonlijk vind ik dat ik sinds het moment dat ik binnen Cegeka begon heel wat kennis heb opgedaan. Zowel op het vlak van talen en technologien als op het vlak van de hele werkwijze achter softwareontwikkeling. Logisch natuurlijk aangezien ik voor dat moment hier helemaal niets van wist.
 Als ik mijn kennis binnen het team bekijk denk ik dat ik op sommige vlakken genoeg weet om de conversaties te volgen, beslissingen te begrijpen of stories te implementeren. Ik doe ook altijd mijn best om vragen te stellen wanneer ik iets niet begrijp omdat ik de zaken ook altijd wel wil begrijpen! 
 Ik besef heel goed dat er heel wat zaken zijn die ik nog niet weet en ik doe ook actief mijn best om dit gat dicht te werken. Dit is wel een vlak waar ik soms wat meer begeleiding zou kunnen gebruiken van iemand meer ervaren die samen met mij prioriteiten kan stellen aan welke zaken ik eerst moet aanpakken. Ik leer graag nieuwe dingen maar de prioriteiten juist stellen is niet altijd even gemakkelijk voor mij.
-```
+
 
 * Kennis op doen
 ```
