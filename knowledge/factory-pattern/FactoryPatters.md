@@ -84,7 +84,7 @@ For this (polymorphism) to work we need `Cirle` `Rectangle` and `Square` to impl
  }
  ```
  This way we would only have to change the code in one place, in the `ShapeFactory` class.
-![alt text](https://github.com/VanausloosThomas/CegekaSchool/blob/master/DesignPatterns/simple_factory_pattern_uml_diagram.png "Simple Factory") 
+![alt text](https://github.com/VanausloosThomas/PersonalDevelopment/tree/master/knowledge/simple_factory_pattern_uml_diagram.png "Simple Factory") 
 ### **Advantages**
  * Great way to encapsulate code!
  * Good way to use abstractions instead of concrete classes (you can work with shapes instead of circles, retangles and squares...).
@@ -280,7 +280,7 @@ First option diagram:
 
 Second option diagram: 
 
-![alt text](https://github.com/VanausloosThomas/CegekaSchool/blob/master/DesignPatterns/abstractfactory_pattern_uml_diagram.png "Abstract Factory with factory producer")
+![alt text](https://github.com/VanausloosThomas/PersonalDevelopment/tree/master/knowledge/abstractfactory_pattern_uml_diagram.png "Abstract Factory with factory producer")
 
 Here is the example for option two. The factory producer:
 
