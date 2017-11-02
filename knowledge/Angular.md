@@ -93,7 +93,7 @@ export class TurnAppGreen{
 ```
 
 Some built-in directives:
-1. *ngIf = "boolean expression" (* means the directive can change the structure of the DOM) The element is added when true. When false it is not there, not just invisible!
+**1. *ngIf = "boolean expression"** (* means the directive can change the structure of the DOM) The element is added when true. When false it is not there, not just invisible!
 The star before the directive indicates that it is a directive that can do structural changes to the DOM!
  ```html
 	<p *ngIf = "serverWasCreated"; else noServer>Some text</p>
@@ -102,7 +102,7 @@ The star before the directive indicates that it is a directive that can do struc
     </ng-template>
    ``` 
 
-2. Enhanced ngIf with else clause:
+**2. Enhanced ngIf with else clause:**
 ```html
 <p *ngIf="serverCreated(); else noServer">Server was created</p>
 <ng-template #noServer>
@@ -112,20 +112,20 @@ The star before the directive indicates that it is a directive that can do struc
 ``` 
 #noServer is a marker in the DOM that we can show under certain condition.
 
-3. ngStyle (attribute directive without a *):
+**3. ngStyle (attribute directive without a *):****
 ```html
 <p [ngStyle]={'background-color': getColor()}></p>
 ``` 
 ngStyle is a directive but also a property  on the directive itself. It expects a JS object with the syle-property name and the value. We use [] to bind to the property of the directive!
 
 
-4. ngClass allows us to assign css classes dynimacly.
+**4. ngClass allows us to assign css classes dynamicly.**
 ```html
 <p [ngClass]="{someCssClass: condition}">some text</p>
 ```
 Like ngStyle we need to use the ngClass directive in combination with property bindin. Accepting a JS obj with a key-value inside. The key is the css class we want to apply. The value is the condition on which it needs to be added or not added to the element.
 
-5. ngFor:
+**5. ngFor:**
 ```html
 <li *ngFor="let item of itemArray">{{item.name}}</li>
 ```
