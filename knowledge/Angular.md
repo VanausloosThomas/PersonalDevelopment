@@ -217,13 +217,38 @@ As you can see we can even pass the reference to a function inside the template.
 ```typescript
 onClick(element: HTMLInputElement){
 	console.log(element.value)
+	//the element contains te html element from our template
 	//input fields have a property called value...
 }
 ```
+
+We get acces to the element when evaluating the method.
+
+**5. @ViewChild()**
+
+We can use this to get acces to the element BEFORE evaluation a method.
+
+```typescript
+@ViewChild('localReferenceOrComponentName')
+serverContentInput: ElementRef;
+
+aMethod(){
+	console.log(this.serverContentInput.nativeElement.value);
+	//nativeElement returns us the html element from out template which was of type input and contains a value property
+}
+```
+
+We need to pass a local reference or the name of a component as a string to the decorator. These ways of accesing data are ment to be used in a read kind of way. It is not ment to modify the DOM using these localReferences!!
+There are better ways for this like string interpolation, property binding or directives...
+
+**6. Projecting contents into components using ngContent**
+
+
+
 ## Vieuw encapsulation
 
 Angular modifies the default css behaviour of the browser. 
-Angular automaticly adds a selector of its own to the attributes. For example _ngcontent-ejo-1. will be added to all elements in a component. Like this angular can enforce that css for a component will only be applied by that component.
+Angular automaticly adds a selector of its own to the attributes. For example _ngcontent-ejo-1 will be added to all elements in a component. Like this angular can enforce that css for a component will only be applied by that component.
 We can override this behaviour by adding the encapsulation field to our component decorator:
 
 ![alt text](viewEncapsulation.png "Different options for the view encapsulation provided by angular")
