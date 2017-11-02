@@ -66,7 +66,7 @@
 
 * **Vlotheid met intellij**
 
-    Aangezien dit onze tool voor dagelijks gebruik is vind ik het heel belangrijk om hier optimaal gebruik van te leren maken! Ik probeer actief telkens meer en mee schortcuts te leren kennen zodat ik steeds vlotter kan omgaan met de IDE. Dit lukt naar mijn eigen mening al zeer goed als lijkt dit soms wat minder vlot te gaan omdat ik dit doe in combinatie met qwerty te typpen en daar gaat het soms nog wat stroever dan ik wil maar dit beterd elke dag.
+    Aangezien dit onze tool voor dagelijks gebruik is vind ik het heel belangrijk om hier optimaal gebruik van te leren maken! Ik probeer actief telkens meer en mee schortcuts te leren kennen zodat ik steeds vlotter kan omgaan met de IDE. Dit lukt naar mijn eigen mening al zeer goed als lijkt dit soms wat minder vlot te gaan omdat ik dit doe in combinatie met qwerty te typpen en daar gaat het soms nog wat stroever dan ik wil maar dit betert elke dag.
 
 * **Typen**
 
@@ -91,17 +91,17 @@
 
 ### 4. Motivatie
 
-Ik vind van mijzelf dat ik heel gemotiveerd ben en daardoor ook bereid ben om heel veel dingen na de uren bij te leren. Ik sta ook altijd open om nieuwe dingen bij te leren. Dit is vanuit mijn natuur zo maar nu nog extra omdat ik besef dat ik nog enorm heb om bij te leren.
+Ik vind van mijzelf dat ik heel gemotiveerd ben en daardoor ook bereid ben om heel veel dingen na de uren bij te leren. Ik sta ook altijd open om nieuwe dingen bij te leren. Dit is vanuit mijn natuur zo maar nu nog extra omdat ik besef dat ik nog enorm veel heb om bij te leren.
 
 ### 5. Verbeterpunten
 
   * Probeer beter op de hoogte te zijn van interne cursussen en probeer deze meer te volgen ipv alles savonds thuis te willen doen.
 
-  * Leren confrontaties aan te gaan met mensen. Dit niet doen leidt tot opgekropte evoelens  bij mijzelf wat uiteindelijk leidt tot frustraties.
+  * Leren confrontaties aan te gaan met mensen. Dit niet doen leidt tot opgekropte gevoelens  bij mijzelf wat uiteindelijk leidt tot frustraties.
 
   * Blijven letten op feedback geven en vragen
 
-    Verder had ik op dit vlak vooral graag de mening van anderen gehoord. Hoe mijn teamleden vinden dat ik mij best kan verbeteren. Zowel op persoonlijk vlak, als developper als op teamvlak.
+    Verder had ik op dit vlak vooral graag de mening van anderen gehoord. Hoe mijn teamleden vinden dat ik mij best kan verbeteren. Zowel op persoonlijk vlak, als developer als op teamvlak.
 
 ### 6. Evaluatie binnen de vdab
 
