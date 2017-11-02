@@ -243,7 +243,25 @@ There are better ways for this like string interpolation, property binding or di
 
 **6. Projecting contents into components using ngContent**
 
+Used to inject html from outside the components template. The default behaviour of angular is to ignore everything you place between the opening en closing tag of your own components. Example:
+```html
+<my-component>everything we place here gets ignored by angular</my-component>
+```
 
+We can alter this behaviour by adding the ng-content DIRECTIVE inside of the template of the component where we want to input the html.
+
+my-component.html
+```html
+<div>
+	<div>
+		<div>
+		</div>
+	</div>
+</div>
+<ng-content></ng-content>	//directive with and element-like selector
+```
+
+Angular will nog place everything it finds between the opening and closing tag of your component. It will project it into the component.
 
 ## Vieuw encapsulation
 
@@ -256,4 +274,17 @@ We can override this behaviour by adding the encapsulation field to our componen
 1. Native: 		Uses the shadowDOM technology. Same behaviour as Emulated but only in browsers that support the shadowDOM.	
 2. None: 		Normal css behaviour, no attributes are added to the elements by angular.
 3. Emulated: 	Default in angular
+
+## The component lifecycle
+
+Angular supports a couple of lifecyclehooks which we can use to hook in and execute some code.
+
+1. **ngOnChanges**: executed at the start when a component is created of when a property annotated with @Input is changed.
+2. **ngOnInit**: executes when the component is initialized (object created => after constructor)
+3. **ngDoCheck**: called whenever the change detection runs. On every check, for example after an event. There does not need to be a change to execute ngDoCheck
+4. **ngAfterContentInit**: called when the content (passed via ng-content) is projected into the view
+5. **ngAfterContentChecked**: called when the projected content has been checked
+6. **ngAfterViewInit**: called after the components (and child views) has been initialized
+7. **ngOnDestroy**: called right before the component is destroyed. Great place to do some cleanup
+
 
