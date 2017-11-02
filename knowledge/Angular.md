@@ -197,6 +197,29 @@ Here we can also assign an alias like we did with the @Input() decorator.
 
 When we want to pass data across components that are not closely linked, an alternative to a very long input-output chain could be to uses services. More explenation will follow later in this document.
 
+**4. Local References**
+
+Can be added to any HTML element and starts with a '#'. It holds a reference to the entire HTML element. We can use these references everywhere in the html template but NOT inside the typescript code !
+
+```html
+<input
+type="text"
+class="form-control"
+#aReference
+></input>
+
+<button
+class="btn btn-primary"
+(click)="onClick(aReference)"
+></button>
+```
+As you can see we can even pass the reference to a function inside the template. 
+```typescript
+onClick(element: HTMLInputElement){
+	console.log(element.value)
+	//input fields have a property called value...
+}
+```
 ## Vieuw encapsulation
 
 Angular modifies the default css behaviour of the browser. 
