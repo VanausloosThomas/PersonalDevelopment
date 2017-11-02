@@ -144,4 +144,50 @@ We can also debug using Augury, this is a plugin for google chrome. You can open
 
 ![alt text](augury.png "Debugging angular using Augury plugin for chrome")
 
-	
+## Components and Databinding
+
+### 1) Generating new componenents
+```
+ng generate component <component-name>
+```
+
+### 2) Passing data between components
+
+**1. @Input()**
+
+We can make our own properties on components so we can bind to them using property binding. To make a property on  the component and to expose it we must add a decorator to that property:
+
+```typescript
+@Input()
+property: String;
+```
+```html
+<p [property]="server"></p>
+```
+By adding the @Input() decorator we can expose our property for input means.
+We can assign an alias to the property so we can use this alias in the outside world (because the naming makes more sense for the outside world but we want the current property name for inside the component)
+
+This @Input is generally used when we want to pass data from a component to a child component.
+
+```typescript
+@Input('otherNameForProperty')
+property: String;
+```
+**2. @Output()**
+
+Typicly used to inform the parent component of a change inside the child component in the form of an event.
+
+```typescript
+import {Output} from '@angular/core'
+ 
+@Output()
+serverCreated = new EventEmitter<{serverName: String, serverStatus: String}>();
+
+//sends the event
+onAddServer(){
+	this.serverCreated.emit({serverName: this.serverName, serverStatus: this.serverStatus});
+}
+```
+```html
+<p (changingProperty)="onEvent($event)"></p>
+```
