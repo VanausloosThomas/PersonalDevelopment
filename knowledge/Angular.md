@@ -179,7 +179,7 @@ Typicly used to inform the parent component of a change inside the child compone
 
 ```typescript
 import {Output} from '@angular/core'
- 
+
 @Output()
 serverCreated = new EventEmitter<{serverName: String, serverStatus: String}>();
 
@@ -189,5 +189,5 @@ onAddServer(){
 }
 ```
 ```html
-<p (changingProperty)="onEvent($event)"></p>
+<p (serverCreated)="onEvent($event)"></p>
 ```
