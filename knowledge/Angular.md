@@ -64,7 +64,7 @@ Emmet: IntelliJ plugin to autocomplete html text.
 You can insert any expression that returns/results in a String in between the {{}}. You can only use one line expressions or ternary expression. Hower if you enter a number inside, it will still work because the number can be converted to a string.
 
 #### Property Binding:
-To bind to a html property by placing the attribute of that property in between two squared brackets. (HTML properties can be set using their attributes ,for example: disabled, angular can bind directly to those properties!) There are also other properties we can bind to ( explenation follows). We need to write a Typscript expression between the ""! [property] = "this.aMethodThatResultsInABoolean()" is a valid form of propertybinding since the expression evaluates to a boolean!
+To bind to a html property by placing the attribute of that property in between two squared brackets. (HTML properties can be set using their attributes ,for example: *disabled*, angular can bind directly to those properties!) There are also other properties we can bind to ( explenation follows). We need to write a Typscript expression between the ""! Example ` [property] = "this.aMethodThatResultsInABoolean()"` is a valid form of propertybinding since the expression evaluates to a boolean!
 
 #### String interpollation vs Property binding
 
@@ -74,16 +74,16 @@ To bind to a html property by placing the attribute of that property in between 
    We bind to existing html events that exist on the element we are working on and bind this to our Typescript code.
    To pass info about the event to the method it calls we can pass the event `$event` to the method : `(click) = "onEventMethod)($event)"`  and we can use this in our component if the method looks like this: `onEventMethod(event : any){}`
 ## Two-way binding
-	[(ngMogel)]="data"
+	[(ngModel)]="data"
 Two-way binding combines propertybinding => [] and eventbinding =>(). NgModel uses the data of the event to update our model.
     
 ## Directives
 = instructions in the DOM ( the component selector is a directive WITH a template). There are also directives WITHOUT templates.
 
-```
+```Html
 <p appTurnGreen > </p>
 ```
-```
+```Typescript
 @Directive({
 	selector='[appTurnGreen]'
 })
@@ -93,14 +93,42 @@ export class TurnAppGreen{
 ```
 
 Some built-in directives:
-1. *ngIf = "" (* means the directive can change the structure of the DOM) The element is added when true. When false it is not there, not just invisible!
-2. ```
-		<p *ngIf = "serverWasCreated"; else noServer>Some text</p>
-        <ng-template #noServer>
-        <p> other text </p>
-        </ng-template>
+1. *ngIf = "boolean expression" (* means the directive can change the structure of the DOM) The element is added when true. When false it is not there, not just invisible!
+The star before the directive indicates that it is a directive that can do structural changes to the DOM!
+ ```html
+	<p *ngIf = "serverWasCreated"; else noServer>Some text</p>
+    <ng-template #noServer>
+    <p> other text </p>
+    </ng-template>
    ``` 
 
-3.
+2. Enhanced ngIf with else clause:
+```html
+<p *ngIf="serverCreated(); else noServer">Server was created</p>
+<ng-template #noServer>
+	No server created
+</ng-template>
+
+``` 
+#noServer is a marker in the DOM that we can show under certain condition.
+
+3. ngStyle (attribute directive without a *):
+```html
+<p [ngStyle]={'background-color': getColor()}></p>
+``` 
+ngStyle is a directive but also a property  on the directive itself. It expects a JS object with the syle-property name and the value. We use [] to bind to the property of the directive!
+
+
+4. ngClass allows us to assign css classes dynimacly.
+```html
+<p [ngClass]="{someCssClass: condition}">some text</p>
+```
+Like ngStyle we need to use the ngClass directive in combination with property bindin. Accepting a JS obj with a key-value inside. The key is the css class we want to apply. The value is the condition on which it needs to be added or not added to the element.
+
+5. ngFor:
+```html
+<li *ngFor="let item of itemArray">{{item.name}}</li>
+```
+
 
 	
