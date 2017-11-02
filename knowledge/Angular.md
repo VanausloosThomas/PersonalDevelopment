@@ -271,9 +271,9 @@ We can override this behaviour by adding the encapsulation field to our componen
 
 ![alt text](viewEncapsulation.png "Different options for the view encapsulation provided by angular")
 
-1. Native: 		Uses the shadowDOM technology. Same behaviour as Emulated but only in browsers that support the shadowDOM.	
-2. None: 		Normal css behaviour, no attributes are added to the elements by angular.
-3. Emulated: 	Default in angular
+1. **Native**: 		Uses the shadowDOM technology. Same behaviour as Emulated but only in browsers that support the shadowDOM.	
+2. **None**: 		Normal css behaviour, no attributes are added to the elements by angular.
+3. **Emulated**: 	Default in angular
 
 ## The component lifecycle
 
@@ -287,4 +287,19 @@ Angular supports a couple of lifecyclehooks which we can use to hook in and exec
 6. **ngAfterViewInit**: called after the components (and child views) has been initialized
 7. **ngOnDestroy**: called right before the component is destroyed. Great place to do some cleanup
 
+We can call all these methods out of the box but it is a good practice to let your component implement them!
+(they also need to be imported from @angular/core)
+
+```typescript
+export class ServerElementComponent implements OnInit, OnChanges{
+	
+	ngOnChanges(changes: SimpleChanges){	//obligated argument
+		//some code here
+	}
+
+	ngOnInit(){
+		//some code here
+	}
+}
+```
 
