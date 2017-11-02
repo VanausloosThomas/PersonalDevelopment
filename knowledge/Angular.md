@@ -294,6 +294,7 @@ We can call all these methods out of the box but it is a good practice to let yo
 export class ServerElementComponent implements OnInit, OnChanges{
 	
 	ngOnChanges(changes: SimpleChanges){	//obligated argument
+	ngOnChanges(){
 		//some code here
 	}
 
