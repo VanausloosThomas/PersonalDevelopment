@@ -138,10 +138,10 @@ If we want the use the index of the item inside the array:
 The javascript files in angular support sourcemaps which allow the browser to map the js run by the browser to our typescript files during development only. They get removed for production of course.
 You can directly acces your typescript files under webpack/src/app...!
 
-![alt text](debugging.png "Debugging angular in developer tools")
+![alt text](debugging.PNG "Debugging angular in developer tools")
 
 We can also debug using Augury, this is a plugin for google chrome. You can open it in your developer tools.
 
-![alt text](augury.png "Debugging angular in developer tools")
+![alt text](augury.png "Debugging angular using Augury plugin for chrome")
 
 	
