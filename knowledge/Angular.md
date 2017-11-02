@@ -191,3 +191,21 @@ onAddServer(){
 ```html
 <p (serverCreated)="onEvent($event)"></p>
 ```
+Here we can also assign an alias like we did with the @Input() decorator.
+
+**3. Services***
+
+When we want to pass data across components that are not closely linked, an alternative to a very long input-output chain could be to uses services. More explenation will follow later in this document.
+
+## Vieuw encapsulation
+
+Angular modifies the default css behaviour of the browser. 
+Angular automaticly adds a selector of its own to the attributes. For example _ngcontent-ejo-1. will be added to all elements in a component. Like this angular can enforce that css for a component will only be applied by that component.
+We can override this behaviour by adding the encapsulation field to our component decorator:
+
+![alt text](viewEncapsulation.png "Different options for the view encapsulation provided by angular")
+
+1. Native: 		Uses the shadowDOM technology. Same behaviour as Emulated but only in browsers that support the shadowDOM.	
+2. None: 		Normal css behaviour, no attributes are added to the elements by angular.
+3. Emulated: 	Default in angular
+
