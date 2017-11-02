@@ -129,6 +129,19 @@ Like ngStyle we need to use the ngClass directive in combination with property b
 ```html
 <li *ngFor="let item of itemArray">{{item.name}}</li>
 ```
+We create a variable `let item` that we can use in the html now.
+If we want the use the index of the item inside the array:
+```html
+<li *ngFor="let item of itemArray; let i = index">{{item.name}}</li>
+```
+## Debuggin in Angular using sourcemaps
+The javascript files in angular support sourcemaps which allow the browser to map the js run by the browser to our typescript files during development only. They get removed for production of course.
+You can directly acces your typescript files under webpack/src/app...!
 
+![alt text](debugging.png "Debugging angular in developer tools")
+
+We can also debug using Augury, this is a plugin for google chrome. You can open it in your developer tools.
+
+![alt text](augury.png "Debugging angular in developer tools")
 
 	
