@@ -314,7 +314,6 @@ We can call all these methods out of the box but it is a good practice to let yo
 export class ServerElementComponent implements OnInit, OnChanges{
 	
 	ngOnChanges(changes: SimpleChanges){	//obligated argument
-	ngOnChanges(){
 		//some code here
 	}
 
@@ -328,9 +327,10 @@ These lifecycles also mean that we cant access anyting on elements passed to us 
 
 ## Directives
 ### Attribute vs Structural directives
-1) Attribute directives
+**1) Attribute directives:**
 	They sit on elements like attributes and only affect there elements
-2) Structural directives
+
+**2) Structural directives:**
 	They do the same as attribute directives but they also change the structure of the DOM
 
 ### Recap
