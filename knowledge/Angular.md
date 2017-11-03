@@ -263,6 +263,26 @@ my-component.html
 
 Angular will nog place everything it finds between the opening and closing tag of your component. It will project it into the component.
 
+**7. Getting access to ng-content with @ContentChild**
+
+When placing a local reference inside the template of one of our own components we can use the @ViewChild in that component. We can also use the @ContentChild inside the component in which we are using the ng-content directive and passing html from another template.
+
+parent-component.html
+```html
+<div>
+	<child-component>
+		<p #selector >some text </p>
+	</child-component>
+</div>
+```
+parent-component.ts
+```typescript
+export class 
+```
+child-component.ts
+```typescript
+```
+
 ## Vieuw encapsulation
 
 Angular modifies the default css behaviour of the browser. 
@@ -303,4 +323,20 @@ export class ServerElementComponent implements OnInit, OnChanges{
 	}
 }
 ```
+
+These lifecycles also mean that we cant access anyting on elements passed to us by @ViewChild untill after the ngAfterViewInit phase!
+
+## Directives
+### Attribute vs Structural directives
+1) Attribute directives
+	They sit on elements like attributes and only affect there elements
+2) Structural directives
+	They do the same as attribute directives but they also change the structure of the DOM
+
+### Recap
+1) *ngFor
+2) *ngIf
+
+We can only have one structural directive on each html element. If we want more directives we will have to wrap our element and apply one of the directives on the wrapper element.
+
 
