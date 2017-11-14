@@ -2,9 +2,8 @@
 
 ### Configuration
 
-1) Classpath scanning
-2) Component scanning 
-3) 
+1) Classpath scanning (using annotations to register beans)
+2) Configuration inside (uses configfiles) 
 
 ### Adding beans to the IOC container
 
