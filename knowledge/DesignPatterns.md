@@ -1,10 +1,15 @@
 # Design Patterns
 
-- [Factory pattern] (#Factory)
+- [Factory Pattern](#Factory)
+	* [Static Factory](#Static)
+	* [Simple Factory](#Simple)
+	* [Abstract Factory](#Abstract)
+- [Strategy Pattern](#Strategy)
+- [Decorator Pattern](#Decorator)
 
-## Factory
+## Factory Pattern
 
-### Factory method
+### Static Factory
 
 Create a static method within a class that is responsible of creating new instances of that class. We can use such methods to validate info before we make an actual object for example. To make sure this validation is performed it is typpical to make the classes' constructor private.
 
