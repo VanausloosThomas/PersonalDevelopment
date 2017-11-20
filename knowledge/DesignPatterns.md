@@ -1,6 +1,8 @@
 # Design Patterns
 
-## 1) Factory
+- [Factory pattern] (# Factory)
+
+## Factory
 
 ### Factory method
 
@@ -106,7 +108,11 @@ public class TestClass{
 
 ```
 
-## 2) Strategy Pattern
+## 2) Strategy Pattern TODO: refactor the example to use composition instead of implementing the interface and deciding the behaviour at compile time.
+
+*Category:*
+
+Behavioural pattern
 
 *Summary:*
 
