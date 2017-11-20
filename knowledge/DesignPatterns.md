@@ -108,19 +108,44 @@ public class TestClass{
 
 ## 2) Strategy Pattern
 
+*Summary:*
 
+The Strategy pattern provides a way to define a family of algorithms, encapsulate each one as an object, and make them interchangeable. This way we can decide the wanted algorithm/behaviour at runtime.
 
- The strategy pattern is about letting objects decide over their own implementation of a certain **behaviour**. The general behaviour will be abstracted in an interface. 
+*Head First Defenition:*
+```
+The strategey pattern identifies the aspects of your application that vary and seperates them form what stays the same.
+```
+*Gang of four Definition:*
+
+```
+The strategey pattern defines a set of encapsulated algorithms that can be swapped to carry out a specific behaviour
+```
+
+ Stategy pattern is basesd on two OO design principles:
+ ```
+ 1. Program to an interface, not an implementation.
+ 2. Favour composition over inheritance.
+ ```
 
 A simple design rule of strategy pattern is: 
-
-
-
+```
 Seperate what stays the same from what differs. The behaviour that differs can be extracted into an interface. All different types can then implement that interface and decide over their own behaviour.
+```
 
+*Typical usage:* 
 
+The strategy pattern is mostly used when classes differ only in a certain behaviour and there are many possible versions of that behaviour. Typpicly we'll want to decide the implementation of that algorithm/behavior at run time. Saving files in different formats, choosing compression algorithms or sorting algorithms are typpical examples of day-to-day usage of the strategy pattern.
 
-#### Example:
+*Implementation:*
+
+To implement the strategy pattern we first need to identify the varying behavior and extract it to an interface. Then we use compositon to encapsulate that behavior in our originall class. At runtime we we can add the correct implementation of the interface to choose the correct algortihm/behaviour we use.
+
+![alt text](https://dzone.com/storage/rc-covers/10617-thumb.png "Strategy pattern")
+
+Source: https://dzone.com/refcardz/design-patterns
+
+*Example:*
 
 
 
@@ -202,7 +227,7 @@ In the example above we see that the Rock class defines its own winsFrom and loo
 
 
 
-##3)Decorator Pattern
+## 3)Decorator Pattern
 
 
 
