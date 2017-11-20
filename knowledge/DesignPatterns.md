@@ -1,6 +1,6 @@
 # Design Patterns
 
-- [Factory pattern] (# Factory)
+- [Factory pattern] (#Factory)
 
 ## Factory
 
