@@ -1,11 +1,11 @@
 # Design Patterns
 
 - [Factory Pattern](#Factory)
-	* [Static Factory](#Static)
-	* [Simple Factory](#Simple)
-	* [Abstract Factory](#Abstract)
-- [Strategy Pattern](#Strategy)
-- [Decorator Pattern](#Decorator)
+	* [Static Factory](#StaticFactory)
+	* [Simple Factory](#SimpleFactory)
+	* [Abstract Factory](#AbstractFactory)
+- [Strategy Pattern](#StrategyPattern)
+- [Decorator Pattern](#DecoratorPattern)
 
 ## Factory Pattern
 
@@ -113,7 +113,7 @@ public class TestClass{
 
 ```
 
-## 2) Strategy Pattern TODO: refactor the example to use composition instead of implementing the interface and deciding the behaviour at compile time.
+## Strategy Pattern TODO: refactor the example to use composition instead of implementing the interface and deciding the behaviour at compile time.
 
 *Category:*
 
@@ -234,11 +234,31 @@ public class Rock implements Interfacehand{
 
 ```
 
-In the example above we see that the Rock class defines its own winsFrom and loosesFrom behaviour. We can make sure the class has that certain behaviour by letting it implement the InterfaceHand interface. 
+In the example above we see that the Rock class defines its own winsFrom() and loosesFrom() behaviour. We can make sure the class has that certain behaviour by letting it implement the InterfaceHand interface. The player class will encapsulate this behaviour.
+
+```java
+
+public class Player{
+
+	private InterfaceHand hand;
+
+	public void setHand(InterfaceHand currentHand){
+		this.hand = currentHand;
+	}
+
+	public boolean playerWinsFrom(Interface otherPlayersHand){
+		return this.hand.winsFrom(otherPlayersHand);
+	}
+
+	public boolean playerLoosesFrom(InterfaceHand otherPlayersHand){
+		return this.hand.loosesFrom(otherPlayersHand);
+	}
+}
+```
+In the example we noticed that there were different kinds of behaviour that decided if the players hand would win/loose from another hand depending on the players hand. Instead of making an entire desiciontree inside the Player class we extracted the winsFrom/loosesFrom behaviour to an interface `InterfaceHand`. We made three strategies implementing that interface: `Rock`, `Paper` and `Scissors`. Each will determin when they win/loose form another hand. We encapsulated the behaaviour inside the `Player` class, added a setter to set the players hand at runtime and added two methods that will invoke the strategies winsFrom() and loosesFrom() methods.
 
 
-
-## 3)Decorator Pattern
+## Decorator Pattern
 
 
 
