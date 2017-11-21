@@ -19,77 +19,41 @@ Create a static method within a class that is responsible of creating new instan
 
 public class Person(){
 
-	
-
     private String firstName;
-
     private String lastName;
 
-    
-
 	//Private constructor
-
 	private Person(String firstName, String lastName){
 
-	
-
     	this.firstName = firstName;
-
         this.lastName = lastName;
-
 	}
 
-    
 
     //Factory method
-
     public static Person createPerson(String firstName, String lastName){
 
-    
-
     	if(isValid(firstName,lastName)){
-
-    	
-
         	return new Person(firstName,lastName);
-
         }
-
         throw new ValidationException("invalid name");
-
     }
-
 }
-
 ```
-
-
 
 ### Simple Factory
 
-
-
 Create a factory class with the purpose of creating new objects.
-
-
 
 ```java
 
 public class PersonFactory{
 
-
-
 	public Person createPerson(String firstName, String lastName){
-
     	return new Person(firstName, lastName);
-
     }
-
 }
-
 ```
-
-
 
 ```java
 
@@ -97,23 +61,15 @@ public class TestClass{
 
 	private PersonFactory personFactory;
 
-    
-
     public static void main(String ... args[]){
 
     	personFactory = new PersonFactory();
-
         Person testPerson = personFactory.createPerson("aFirstName","aLastName");
-
     }
-
-
-
 }
-
 ```
 
-## Strategy Pattern TODO: refactor the example to use composition instead of implementing the interface and deciding the behaviour at compile time.
+## Strategy Pattern
 
 #### *Category:*
 
