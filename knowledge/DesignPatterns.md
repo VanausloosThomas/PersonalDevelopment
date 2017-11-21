@@ -115,19 +115,19 @@ public class TestClass{
 
 ## Strategy Pattern TODO: refactor the example to use composition instead of implementing the interface and deciding the behaviour at compile time.
 
-*Category:*
+#### *Category:*
 
 Behavioural pattern
 
-*Summary:*
+#### *Summary:*
 
 The Strategy pattern provides a way to define a family of algorithms, encapsulate each one as an object, and make them interchangeable. This way we can decide the wanted algorithm/behaviour at runtime.
 
-*Head First Defenition:*
+#### *Head First Defenition:*
 ```
 The strategey pattern identifies the aspects of your application that vary and seperates them form what stays the same.
 ```
-*Gang of four Definition:*
+#### *Gang of four Definition:*
 
 ```
 The strategey pattern defines a set of encapsulated algorithms that can be swapped to carry out a specific behaviour
@@ -144,11 +144,11 @@ A simple design rule of strategy pattern is:
 Seperate what stays the same from what differs. The behaviour that differs can be extracted into an interface. All different types can then implement that interface and decide over their own behaviour.
 ```
 
-*Typical usage:* 
+#### *Typical usage:* 
 
 The strategy pattern is mostly used when classes differ only in a certain behaviour and there are many possible versions of that behaviour. Typpicly we'll want to decide the implementation of that algorithm/behavior at run time. Saving files in different formats, choosing compression algorithms or sorting algorithms are typpical examples of day-to-day usage of the strategy pattern.
 
-*Implementation:*
+#### *Implementation:*
 
 To implement the strategy pattern we first need to identify the varying behavior and extract it to an interface. Then we use compositon to encapsulate that behavior in our originall class. At runtime we we can add the correct implementation of the interface to choose the correct algortihm/behaviour we use.
 
@@ -156,7 +156,7 @@ To implement the strategy pattern we first need to identify the varying behavior
 
 Source: https://dzone.com/refcardz/design-patterns
 
-*Example:*
+#### *Example:*
 
 
 
@@ -168,15 +168,9 @@ An example of an interface that decides the behaviour of a certain hand (in the 
 
 public interface InterfaceHand{
 
-
-
 public boolean winsFrom(HandEnum hand);
 
-
-
 public boolean loosesFrom(HandEnum hand);
-
-
 
 }
 
@@ -184,52 +178,30 @@ public boolean loosesFrom(HandEnum hand);
 
 ```
 
-
-
 Each kind of hand (rock, paper or scissors) will implement the interface above and implement its methods on its own way. Each object will decide its own behaviour! Example:
-
-
 
 ```java
 
 public class Rock implements Interfacehand{
 
-	
-
 	@Override
 
 	public boolean winsFrom(HandEnum hand){
 
-	
-
 		if(hand == HandEnum.SCISSORS){
-
 			return true;
-
 		}
-
 		return false;
-
 	}
-
-	
 
 	@Override
-
 	public boolean loosesFrom(HandEnum hand){
 
-	
-
 		if(hand == HandEnum.PAPER){
-
 			return true;
-
 		}
-
 		return false;
-
 	}
-
 }
 
 ```
@@ -240,16 +212,20 @@ In the example above we see that the Rock class defines its own winsFrom() and l
 
 public class Player{
 
+	//encapsulated strategy
 	private InterfaceHand hand;
 
+	//setter to set the strategy at runtime
 	public void setHand(InterfaceHand currentHand){
 		this.hand = currentHand;
 	}
 
+	//method lets the current strategy decide the behaviour that is being used
 	public boolean playerWinsFrom(Interface otherPlayersHand){
 		return this.hand.winsFrom(otherPlayersHand);
 	}
 
+	//method lets the current strategy decide the behaviour that is being used
 	public boolean playerLoosesFrom(InterfaceHand otherPlayersHand){
 		return this.hand.loosesFrom(otherPlayersHand);
 	}
@@ -274,118 +250,62 @@ The decorator pattern is a structural pattern. It has two different ways of usin
 
 #### Example of case 1:
 
-
-
 Note that using the interface here is a usage of the strategy pattern...
 
-
-
 ```java
-
 public interface Shape{
 
-
-
 	public void draw();
-
-
-
 }
 
 ```
-
-
 
 ```java
 
 public class Rectangle implements Shape{
 
-
-
 	public void draw(){
-
-	
-
 		sout("Shape: Rectangle");
-
 	}
-
 }
 
-
-
 ```
-
-
 
 ```java
 
 public class ShapeDecorator implements Shape{
 
-	
-
 	private Shape shapeToDecorate;
 
-	
-
 	public ShapeDecorator(Shape shape){
-
-	
-
 		this.shapeToDecorate = shape;
-
 	}
-
-	
-
-	
 
 	public void draw(){
 
-	
-
 		shapeToDecorate.draw();
-
 		sout("Extra decoration");
-
 	}
-
 }
-
-
 
 ```
 
-
-
 The shapeDecorator will wrap itself around the shape object and store it in its instance field. It will then add functionallity to it's draw() function by calling the draw function of the shape and then adding its own functionallity.
 
-
-
 #### Example of case 2:
-
-
 
 In the second example we can have many different and independant layers and one base-layer. this will be the base that we will wrap in the other layers. 
 
 Each layer class will implement the same interface, have a field to store an object of type of that interface (the previous layer that will be encapsulated). The current class's methods will call the methods of the previous object (stored in its field at the moment of creation) and add some of its own info.
 
-
-
 ##### The interface:
-
-
 
 ```java
 
 public interface PricePackage{
 
-
-
 	public int getPrice();
-
 }
-
 ```
 
 ##### The base layer:
@@ -394,67 +314,34 @@ public interface PricePackage{
 
 public class BasePackage implements PricePackage{
 
-	
-
 	// Implement the method
-
 	public int getPrice(){
-
-	
-
 		return 1000;
-
 	}
-
 }
-
 ```
 
 Note that the class above is the base layer and thus has no field to store a previous pricePackage! This class will be wrapped by other layers but it wont wrap anything itself.
 
-
-
 ##### An example of another layer:
-
-
 
 ```java
 
 public class WrapperLayer(){
 
-
-
 	// Field to hold the previous layers
-
 	private PricePackage previousPackage;
 
-	
-
 	//Constructor stores the previous layer into its field
-
 	public WrapperLayer(PrivePackage pack){
-
-	
-
 		this.previousPackage = pack;
-
 	}
-
-	
 
 	//Implement the method by adding info to the previous layer(s)
-
-	punlic int getPrice(){
-
-	
-
+	public int getPrice(){
 		return previousPackage.getPrince() + 50;
-
 	}
-
 }
-
-
 
 ```
 
@@ -466,19 +353,11 @@ public class TestClass{
 
 	public static void Main(String ... args[]){
 
-	
+		PricePackage package = new WrapperLayer(new BasePackage());
 
-	PricePackage package = new WrapperLayer(new BasePackage());
-
-	// Will return 1050
-
-	package.getPrice();g
-
+		// Will return 1050
+		package.getPrice();
 	}
-
 }
-
-
-
 ```
 
