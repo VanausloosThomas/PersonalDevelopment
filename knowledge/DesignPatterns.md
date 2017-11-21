@@ -81,12 +81,12 @@ The Strategy pattern provides a way to define a family of algorithms, encapsulat
 
 #### *Head First Defenition:*
 ```
-The strategey pattern identifies the aspects of your application that vary and seperates them form what stays the same.
+The strategey pattern identifies the aspects of your application  that vary and seperates them form what stays the same.
 ```
 #### *Gang of four Definition:*
 
 ```
-The strategey pattern defines a set of encapsulated algorithms that can be swapped to carry out a specific behaviour
+The strategey pattern defines a set of encapsulated algorithms that  can be swapped to carry out a specific behaviour
 ```
 
  Stategy pattern is basesd on two OO design principles:
