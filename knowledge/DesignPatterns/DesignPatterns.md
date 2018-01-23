@@ -317,3 +317,114 @@ public class TestClass{
 }
 ```
 
+## Command Pattern
+
+### Defenition:
+```
+The Command Pattern encapsulates a request as anobject, thereby letting you parameterize other objectswith different requests, queue or log requests, and supportundoable operations.
+```
+
+### Class Diagram:
+
+![alt text](./CommandPatternClassDiagram.jpeg "Class Diagram")
+
+### Macro Commands:
+
+```java
+
+public class MacroCommand implements Command {
+	Command[] commands;
+	public MacroCommand(Command[] commands) {		this.commands = commands;	}
+	public void execute() {		for (int i = 0; i < commands.length; i++) {			commands[i].execute();		}	}}
+```
+
+### Bullet Points:
+* The Command Pattern decouples an object, making a request from the one that knows how to perform it.* A Command object is at the center of this decoupling and encapsulates a receiver with an action (or set of actions).* An invoker makes a request of a Command object by calling its execute() method, whichinvokes those actions on the receiver.
+* Invokers can be parameterized with Commands, even dynamically at runtime.* Commands may support undo by implementing an undo method that restores the objectto its previous state before the execute() method was last called.*  Macro Commands are a simple extension of Command that allow multiple commands tobe invoked. Likewise, Macro Commands can easily support undo().* In practice, it is not uncommon for “smart” Command objects to implement the request themselves rather than delegating to a receiver.* Commands may also be used to implement logging and transactional systems.
+
+### Questions:
+* If you store all your commands you could replay them. Is this how Event Driven Design works?
+* When to chose to make an explicit command class and when to use a lamda (assuming the command contains only one method, otherwise the choise is fairly obvious).
+* Encapsulate the receiver or handle the implementation of the command in the command itself?
+
+## Adapter Pattern
+The adapter pattern fills the gap between the expected interface and the existing interface.
+In java we use the object implementation of this pattern since the class implementation would require multiple inheritance which java does not allow.
+
+### Example:
+
+```java
+public class TurkeyAdapter implements Duck {
+
+	// Adapter patters uses composition!	Turkey turkey;
+		public TurkeyAdapter(Turkey turkey) {		this.turkey = turkey;	}
+	
+	//Implementes the method expected from our Duck interface and adapts it to the turkey
+	@Override	public void quack() {		turkey.gobble();	}
+	
+	
+	//Implementes the method expected from our Duck interface and adapts it to the turkey	@Override	public void fly() {		for(int i=0; i < 5; i++) {			turkey.fly();		}	}}
+```
+
+### Defenition:
+```
+The Adapter Pattern converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn’t otherwise because ofincompatible interfaces.
+```
+
+### Class Diagram:
+![alt text](./AdapterPatternClassDiagram.jpeg "Class Diagram")
+
+### Bullet Points:
+
+### Questions:
+* Arent the adapter and command pattern very alike? Exept for their intent? Perhaps even their intent is very alike...
+
+
+## Facade Pattern
+
+### Defenition:
+
+### Class Diagram:
+
+### Bullet Points:
+
+### Questions:
+
+## Template Pattern
+Subclasses are responsible for the implementation of specific parts of the algorithm. The template pattern lets us offer hooks that a subclass may or may not implement to hook into the algorithm at any certain point. Real life examples of hooks are very present at Angular (think of the lifecycle hooks of a component like ngOnInit() etc... ).
+
+ ```java
+ public abstract class Template{
+ 	public int someAlgorithm(){
+ 		concreteMethod1();
+ 		concreteMethod2();
+ 		abstractMethod1();
+ 		abstractMethod2();
+ 		hook();
+ 	}
+		public void concreteMethod1(){
+			//some implementation
+		}
+		
+ 		public void concreteMethod2(){
+			//some implementation
+		}
+		
+		//abstract method to be implemented by the concrete subclass
+ 		public abstract void abstractMethod1();
+ 		
+		//abstract method to be implemented by the concrete subclass
+ 		public abstract void abstractMethod2();
+ 		
+ 		hook(){
+ 		//empty
+ 		}
+ 
+
+ }
+ ```
+ 
+### Design principles:
+* Hollywood Principle:
+ `Don't call us, we'll call you`
+  
