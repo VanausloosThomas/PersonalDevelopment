@@ -79,7 +79,7 @@ Behavioural pattern
 
 The Strategy pattern provides a way to define a family of algorithms, encapsulate each one as an object, and make them interchangeable. This way we can decide the wanted algorithm/behaviour at runtime.
 
-#### *Head First Defenition:*
+#### *Head First Definition:*
 ```
 The strategey pattern identifies the aspects of your application  that vary and seperates them form what stays the same.
 ```
@@ -319,9 +319,9 @@ public class TestClass{
 
 ## Command Pattern
 
-### Defenition:
+### Definition:
 ```
-The Command Pattern encapsulates a request as anobject, thereby letting you parameterize other objectswith different requests, queue or log requests, and supportundoable operations.
+The Command Pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
 ```
 
 ### Class Diagram:
@@ -366,7 +366,7 @@ public class TurkeyAdapter implements Duck {
 	//Implementes the method expected from our Duck interface and adapts it to the turkey	@Override	public void fly() {		for(int i=0; i < 5; i++) {			turkey.fly();		}	}}
 ```
 
-### Defenition:
+### Definition:
 ```
 The Adapter Pattern converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn’t otherwise because ofincompatible interfaces.
 ```
@@ -376,17 +376,63 @@ The Adapter Pattern converts the interface of a class into another interface the
 
 ### Bullet Points:
 
+* When you need to use an existing class and its interface is not the one you need, use an adapter.
+* An adapter changes an interface into one a client expects.
+* Implementing an adapter may require little work or a great deal of work depending on the size and complexity of the target interface.
+* There are two forms of the Adapter Pattern: object and class adapters. Class adapters require multiple inheritance.
+* An adapter wraps an object to change its interface, a decorator wraps an object to add newbehaviors and responsibilities, and a facade “wraps” a set of objects to simplify.
+
+
 ### Questions:
 * Arent the adapter and command pattern very alike? Exept for their intent? Perhaps even their intent is very alike...
 
 
 ## Facade Pattern
 
-### Defenition:
+### Definition:
+```
+The Facade Pattern provides a unifined interface to aset of interfaces in a subsytem.
+Facade defines a higherlevel interface that makes the subsystem easier to use.
+```
+
+### Example
 
 ### Class Diagram:
+![alt text](./FacadeClassDiagram.jpeg "Class Diagram")
+
+### Design Principle: Principle of least knowledge (Law of Demeter)
+```
+Talk only to your immediate friends.
+```
+When we have an object, whithin a method on that object we should only invoke methods of:
+* the object itself
+* objects passed into the method as parameters
+* any object that gets created whitin the method
+* any component/field of the object
+
+Whithout the principle:
+
+```java
+
+public int getMilk(){
+	Cow cow = farm.getCow();
+	return cow.getMilk();
+}
+
+```
+
+With the principle:
+
+```java
+
+public int getMilk(){
+	return farm.getMilk();
+}
+
+```
 
 ### Bullet Points:
+* When you need to simplify and unify a large interface or complex set of interfaces, use afacade.* A facade decouples a client from a complex subsystem.* Implementing a facade requires that we compose the facade with its subsystem and use delegation to perform the work of the facade.* You can implement more than one facade for a subsystem.
 
 ### Questions:
 
@@ -427,4 +473,4 @@ Subclasses are responsible for the implementation of specific parts of the algor
 ### Design principles:
 * Hollywood Principle:
  `Don't call us, we'll call you`
-  
+  Definition
