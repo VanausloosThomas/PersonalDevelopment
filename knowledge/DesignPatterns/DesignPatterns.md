@@ -10,5 +10,5 @@
 - [Template Pattern](https://github.com/VanausloosThomas/PersonalDevelopment/blob/master/knowledge/DesignPatterns/TemplatePattern.md)
 - [Iterator Pattern](https://github.com/VanausloosThomas/PersonalDevelopment/blob/master/knowledge/DesignPatterns/IteratorPattern.md)
 - [Composite Pattern](https://github.com/VanausloosThomas/PersonalDevelopment/blob/master/knowledge/DesignPatterns/CompositePattern.md)
-
+- [State Pattern](https://github.com/VanausloosThomas/PersonalDevelopment/blob/master/knowledge/DesignPatterns/StatePattern.md)
 
