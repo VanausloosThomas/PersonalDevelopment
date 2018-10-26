@@ -1,8 +1,16 @@
+---
+title: Facade Pattern
+teaser: The Facade Pattern provides a unified interface to a set of interfaces in a subsytem.
+Facade defines a higherlevel interface that makes the subsystem easier to use.
+category: Design Patterns
+---
+
+
 ## Facade Pattern
 
 ### Definition:
 ```
-The Facade Pattern provides a unifined interface to aset of interfaces in a subsytem.
+The Facade Pattern provides a unified interface to a set of interfaces in a subsytem.
 Facade defines a higherlevel interface that makes the subsystem easier to use.
 ```
 
@@ -43,4 +51,9 @@ public int getMilk(){
 ```
 
 ### Bullet Points:
-* When you need to simplify and unify a large interface or complex set of interfaces, use afacade.* A facade decouples a client from a complex subsystem.* Implementing a facade requires that we compose the facade with its subsystem and use delegation to perform the work of the facade.* You can implement more than one facade for a subsystem.
+
+* When you need to simplify and unify a large interface or complex set of interfaces, use a
+facade.
+* A facade decouples a client from a complex subsystem.
+* Implementing a facade requires that we compose the facade with its subsystem and use delegation to perform the work of the facade.
+* You can implement more than one facade for a subsystem.

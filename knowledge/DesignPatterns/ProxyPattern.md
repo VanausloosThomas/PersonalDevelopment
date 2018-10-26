@@ -1,9 +1,16 @@
+---
+title: Proxy Pattern
+teaser: A proxy is a stand in for a real object. It acts just like the real object but behind the scenes  it is routing all its method calls to the real object.
+category: Design Patterns
+---
+
+
 ## Proxy Pattern
 
 ### What is a proxy?
 
 ```
-A proxy is a stand in for a real object. It acts just like the real object but behind the scenes it is communicating over the netwerk to talk to the real object.
+A proxy is a stand in for a remote object. It acts just like the real object but behind the scenes it is communicating over the netwerk to talk to the real object.
 The proxy acts as a local representation of the remote object (an object that lives inside another JVM). The proxy will accept all method calls the remote object does and foreward them to the real remote object.
 ```
 

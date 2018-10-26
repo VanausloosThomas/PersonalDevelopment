@@ -1,3 +1,10 @@
+---
+title: Compound Pattern
+teaser: The compound pattern is a pattern of design patterns working together to create a general purpose solution to a general or recurring problem. Not just any combination of patterns is therefore a compound pattern. It has to be some sort of generic solution.
+category: Design Patterns
+---
+
+
 ## Compound Pattern
 
 ### What is the compound pattern?

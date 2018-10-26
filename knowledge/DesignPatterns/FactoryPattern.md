@@ -1,3 +1,10 @@
+---
+title: Factory Pattern
+teaser: While there are many forms of the factory patters, it will always play the role of object-creator.
+category: Design Patterns
+---
+
+
 ## Factory Pattern
 
 ### Static Factory

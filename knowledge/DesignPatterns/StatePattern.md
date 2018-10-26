@@ -1,3 +1,10 @@
+---
+title: State Pattern
+teaser: The State Pattern allows an object to alter its behavior when its internal state changes.
+category: Design Patterns
+---
+
+
 ## State Pattern
 
 ### Definition:

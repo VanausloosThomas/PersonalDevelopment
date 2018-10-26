@@ -1,3 +1,10 @@
+---
+title: Template Pattern
+teaser: The template pattern provides us with hooks to add custom behaviour to a template algorithm.
+category: Design Patterns
+---
+
+
 ## Template Pattern
 Subclasses are responsible for the implementation of specific parts of the algorithm. The template pattern lets us offer hooks that a subclass may or may not implement to hook into the algorithm at any certain point. Real life examples of hooks are very present at Angular (think of the lifecycle hooks of a component like ngOnInit() etc... ).
 
